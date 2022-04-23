@@ -18,7 +18,6 @@ function CreateArea(props) {
       };
     });
   }
-
   function submitNote(event) {
     props.onAdd(note);
     setNote({
@@ -30,7 +29,6 @@ function CreateArea(props) {
   function handleClick(){
    return  setonClick(true);
   }
-
   return (
     <div>
       <form className="create-note">

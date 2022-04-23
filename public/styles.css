@@ -13,7 +13,9 @@ body {
 }
 
 header {
-  background-color: #f5ba13;
+  height: 200px;
+  text-align: center;
+  background-color: #f51388;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -37,7 +39,7 @@ footer p {
   color: #ccc;
 }
 .note {
-  background: #fff;
+  background: rgb(168, 200, 216);
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
@@ -60,7 +62,7 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #64c35d;
   border: none;
   width: 36px;
   height: 36px;
@@ -100,4 +102,35 @@ form.create-note button {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   cursor: pointer;
   outline: none;
+}
+.headerButton
+{
+  background:    #cde34a;
+  border-radius: 11px;
+  box-shadow:    0 1px #444444;
+  padding:       10px 15px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal bold 18px/1 "Open Sans", sans-serif;
+  text-align:    center;
+  border: none;
+  position: absolute;
+  right: 150px;
+}
+.BucketName
+{
+  padding-top: 20px;
+  font-family:cursive ;
+  font-size:30px;
+  color: #444444;
+}
+.bucketList
+{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 20px;
+  background-color: #93de8e;
+  font-family: cursive;
+  height:50px;
 }

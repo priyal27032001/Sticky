@@ -12,9 +12,9 @@
     "@mui/icons-material": "^5.2.1",
     "@mui/material": "^5.2.3",
     "@mui/styled-engine": "^5.2.0",
-    "react": "16.8.6",
+    "react": "^16.8.6",
     "react-dom": "16.8.6",
-    "react-scripts": "3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
     "typescript": "3.3.3"
